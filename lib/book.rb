@@ -15,12 +15,12 @@ class Book
     @author
   end
   
-  def page_counter=(num)
-    @page_counter = num
+  def page_count=(num)
+    @page_count = num
   end
   
-  def page_counter
-    @page_counter
+  def page_count
+    @page_count
   end
   
   def genre=(genre)
